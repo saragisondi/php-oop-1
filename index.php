@@ -2,7 +2,9 @@
 
 require_once __DIR__ . '/models/Movie.php';
 
+$Harry_potter1 = new Movie('Title:' . ' ' . 'Harry Potter e la pietra filosofale', 'hp1.jpg', 'Regia:' . ' ' . 'Chris Columbus', 'Produzione:' . ' ' . 'David Heyman', 'Sceneggiatura:' . ' ' . 'Steven Kloves', 'Musiche:' . ' ' . 'John Williams', 'Distribuito da:' . ' ' . 'Warner Bros.','Rilascio:' . ' ' . '2001','Durata:' . ' ' . '160 min');
 
+var_dump($Harry_potter1);
 ?>
 
 <!DOCTYPE html>
