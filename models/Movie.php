@@ -1,6 +1,7 @@
 <?php
-
+// class
 class Movie{
+  // object
   public $title;
   public $img;
   public $directing;
@@ -11,6 +12,7 @@ class Movie{
   public $release;
   public $duration;
 
+  //function construct
   public function __construct($_title, $_img, $_directing, $_direction, $_production, $_musics, $_distribution, $_release, $_duration){
     $this -> title = $_title;
     $this -> img = $_img;
@@ -22,5 +24,15 @@ class Movie{
     $this -> release = $_release;
     $this -> duration =  $_duration;
   }
+
+  //method
+  public function get_title(){
+    return $this -> title;
+  }
+
+  public function  get_image(){
+    return $this -> img;
+  }
+
 
 }

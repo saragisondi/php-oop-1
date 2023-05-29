@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.728);
+}
+
+img{
+  max-width: 100%;
+}
+
+ul{
+  width: 100%;
+}
+
+li{
+  list-style-type:none;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.container-cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: calc(100% / 5);
+  background-color:black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 10px;
+}
+h1{
+  text-align: center;
+  height: 110px;
+}
+.container-img{
+  width: 300px;
+  height:430px;
+}
+
+.container-img img{
+  object-fit: cover;
+}
